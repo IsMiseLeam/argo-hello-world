@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-api
-          image: ghcr.io/ismiseleam/argo-samples:latest
+          image: ghcr.io/ismiseleam/argo-hello-world:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8085
