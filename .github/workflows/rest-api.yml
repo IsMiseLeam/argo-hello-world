@@ -29,5 +29,5 @@ jobs:
           push: true
           platforms: linux/arm64
           tags: |
-            ghcr.io/leam-akuity/argo-samples:${{ github.sha }}
-            ghcr.io/leam-akuity/argo-samples:latest
+            ghcr.io/leam-akuity/argo-hello-world:${{ github.sha }}
+            ghcr.io/leam-akuity/argo-hello-world:latest
